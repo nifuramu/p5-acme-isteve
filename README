@@ -1,27 +1,29 @@
-This is Perl module Acme::iSteve.
+# NAME
 
-INSTALLATION
+Acme::iSteve -
 
-Acme::iSteve installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
+# SYNOPSIS
 
-    % cpan Acme::iSteve
+  use Acme::iSteve;
 
-Download it, unpack it, then build it as per the usual:
+  print Acme::iSteve->call;
+  print Acme::iSteve->twitter;
 
-    % perl Makefile.PL
-    % make && make test
+# DESCRIPTION
 
-Then install it:
+Acme::iSteve is iSteve for Perl.
 
-    % make install
+# AUTHOR
 
-DOCUMENTATION
+unk <kuzuzaki_at_gmail.com>
 
-Acme::iSteve documentation is available as in POD. So you can do:
+# SEE ALSO
 
-    % perldoc Acme::iSteve
+https://github.com/mayumine/isteveforperl
 
-to read the documentation online with your favorite pager.
+http://kyoko-np.net/2011100601.html
 
-unk
+# LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
